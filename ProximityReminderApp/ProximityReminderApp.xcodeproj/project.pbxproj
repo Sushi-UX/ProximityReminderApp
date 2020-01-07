@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8E5DB123C4205C00FDFEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DB023C4205C00FDFEAA /* AppDelegate.swift */; };
+		FB8E5DB823C4205C00FDFEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8E5DB623C4205C00FDFEAA /* Main.storyboard */; };
+		FB8E5DBA23C4205D00FDFEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8E5DB923C4205D00FDFEAA /* Assets.xcassets */; };
+		FB8E5DBD23C4205D00FDFEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8E5DBB23C4205D00FDFEAA /* LaunchScreen.storyboard */; };
+		FB8E5DC523C42DBC00FDFEAA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DC423C42DBC00FDFEAA /* LocationManager.swift */; };
+		FB8E5DC723C42DEA00FDFEAA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DC623C42DEA00FDFEAA /* Extensions.swift */; };
+		FB8E5DC923C42E2B00FDFEAA /* Reminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DC823C42E2B00FDFEAA /* Reminder+CoreDataProperties.swift */; };
+		FB8E5DCC23C42EE700FDFEAA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DCB23C42EE700FDFEAA /* MasterViewController.swift */; };
+		FB8E5DCE23C42F1100FDFEAA /* MasterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DCD23C42F1100FDFEAA /* MasterDataSource.swift */; };
+		FB8E5DD023C42F4000FDFEAA /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DCF23C42F4000FDFEAA /* ReminderCell.swift */; };
+		FB8E5DD323C42F8300FDFEAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DD223C42F8300FDFEAA /* DetailViewController.swift */; };
+		FB8E5DD523C42FAF00FDFEAA /* DetailMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DD423C42FAF00FDFEAA /* DetailMapViewDelegate.swift */; };
+		FB8E5DD823C4300B00FDFEAA /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DD723C4300B00FDFEAA /* SetLocationViewController.swift */; };
+		FB8E5DDA23C4305500FDFEAA /* SetLocationMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DD923C4305500FDFEAA /* SetLocationMapViewDelegate.swift */; };
+		FB8E5DDC23C4309200FDFEAA /* LocationTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DDB23C4309200FDFEAA /* LocationTableView.swift */; };
+		FB8E5DDE23C430C100FDFEAA /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DDD23C430C100FDFEAA /* LocationCell.swift */; };
+		FB8E5DE123C4314700FDFEAA /* ReminderFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DE023C4314700FDFEAA /* ReminderFetchedResultsController.swift */; };
+		FB8E5DE323C4317800FDFEAA /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DE223C4317800FDFEAA /* CoreDataStack.swift */; };
+		FB8E5DE623C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8E5DE423C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodeld */; };
+		FB8E5DEE23C43B3600FDFEAA /* Austin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FB8E5DEB23C43B3600FDFEAA /* Austin.gpx */; };
+		FB8E5DEF23C43B3600FDFEAA /* Zilker.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FB8E5DEC23C43B3600FDFEAA /* Zilker.gpx */; };
+		FB8E5DF023C43B3600FDFEAA /* SimulatedLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FB8E5DED23C43B3600FDFEAA /* SimulatedLocations.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB8E5DAD23C4205C00FDFEAA /* ProximityReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityReminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8E5DB023C4205C00FDFEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB8E5DB723C4205C00FDFEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB8E5DB923C4205D00FDFEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8E5DBC23C4205D00FDFEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8E5DBE23C4205D00FDFEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8E5DC423C42DBC00FDFEAA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FB8E5DC623C42DEA00FDFEAA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FB8E5DC823C42E2B00FDFEAA /* Reminder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FB8E5DCB23C42EE700FDFEAA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		FB8E5DCD23C42F1100FDFEAA /* MasterDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDataSource.swift; sourceTree = "<group>"; };
+		FB8E5DCF23C42F4000FDFEAA /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		FB8E5DD223C42F8300FDFEAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FB8E5DD423C42FAF00FDFEAA /* DetailMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapViewDelegate.swift; sourceTree = "<group>"; };
+		FB8E5DD723C4300B00FDFEAA /* SetLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
+		FB8E5DD923C4305500FDFEAA /* SetLocationMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationMapViewDelegate.swift; sourceTree = "<group>"; };
+		FB8E5DDB23C4309200FDFEAA /* LocationTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableView.swift; sourceTree = "<group>"; };
+		FB8E5DDD23C430C100FDFEAA /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		FB8E5DE023C4314700FDFEAA /* ReminderFetchedResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderFetchedResultsController.swift; sourceTree = "<group>"; };
+		FB8E5DE223C4317800FDFEAA /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FB8E5DE523C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proximity_Reminders_App.xcdatamodel; sourceTree = "<group>"; };
+		FB8E5DEB23C43B3600FDFEAA /* Austin.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Austin.gpx; sourceTree = "<group>"; };
+		FB8E5DEC23C43B3600FDFEAA /* Zilker.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zilker.gpx; sourceTree = "<group>"; };
+		FB8E5DED23C43B3600FDFEAA /* SimulatedLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SimulatedLocations.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8E5DAA23C4205C00FDFEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8E5DA423C4205B00FDFEAA = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DAF23C4205C00FDFEAA /* ProximityReminderApp */,
+				FB8E5DAE23C4205C00FDFEAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8E5DAE23C4205C00FDFEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DAD23C4205C00FDFEAA /* ProximityReminderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8E5DAF23C4205C00FDFEAA /* ProximityReminderApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DB023C4205C00FDFEAA /* AppDelegate.swift */,
+				FB8E5DC423C42DBC00FDFEAA /* LocationManager.swift */,
+				FB8E5DC623C42DEA00FDFEAA /* Extensions.swift */,
+				FB8E5DC823C42E2B00FDFEAA /* Reminder+CoreDataProperties.swift */,
+				FB8E5DCA23C42E9700FDFEAA /* MasterVC */,
+				FB8E5DD123C42F6000FDFEAA /* DetailVC */,
+				FB8E5DD623C42FCA00FDFEAA /* SetLocationVC */,
+				FB8E5DDF23C430F700FDFEAA /* Model */,
+				FB8E5DE723C431EA00FDFEAA /* Storyboards */,
+				FB8E5DB923C4205D00FDFEAA /* Assets.xcassets */,
+				FB8E5DBE23C4205D00FDFEAA /* Info.plist */,
+				FB8E5DEA23C43B3600FDFEAA /* SimulatorLocations */,
+			);
+			path = ProximityReminderApp;
+			sourceTree = "<group>";
+		};
+		FB8E5DCA23C42E9700FDFEAA /* MasterVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DCB23C42EE700FDFEAA /* MasterViewController.swift */,
+				FB8E5DCD23C42F1100FDFEAA /* MasterDataSource.swift */,
+				FB8E5DCF23C42F4000FDFEAA /* ReminderCell.swift */,
+			);
+			path = MasterVC;
+			sourceTree = "<group>";
+		};
+		FB8E5DD123C42F6000FDFEAA /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DD223C42F8300FDFEAA /* DetailViewController.swift */,
+				FB8E5DD423C42FAF00FDFEAA /* DetailMapViewDelegate.swift */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		FB8E5DD623C42FCA00FDFEAA /* SetLocationVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DD723C4300B00FDFEAA /* SetLocationViewController.swift */,
+				FB8E5DD923C4305500FDFEAA /* SetLocationMapViewDelegate.swift */,
+				FB8E5DDB23C4309200FDFEAA /* LocationTableView.swift */,
+				FB8E5DDD23C430C100FDFEAA /* LocationCell.swift */,
+			);
+			path = SetLocationVC;
+			sourceTree = "<group>";
+		};
+		FB8E5DDF23C430F700FDFEAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DE023C4314700FDFEAA /* ReminderFetchedResultsController.swift */,
+				FB8E5DE223C4317800FDFEAA /* CoreDataStack.swift */,
+				FB8E5DE423C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8E5DE723C431EA00FDFEAA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DB623C4205C00FDFEAA /* Main.storyboard */,
+				FB8E5DBB23C4205D00FDFEAA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FB8E5DEA23C43B3600FDFEAA /* SimulatorLocations */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E5DEB23C43B3600FDFEAA /* Austin.gpx */,
+				FB8E5DEC23C43B3600FDFEAA /* Zilker.gpx */,
+				FB8E5DED23C43B3600FDFEAA /* SimulatedLocations.gpx */,
+			);
+			path = SimulatorLocations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8E5DAC23C4205C00FDFEAA /* ProximityReminderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8E5DC123C4205D00FDFEAA /* Build configuration list for PBXNativeTarget "ProximityReminderApp" */;
+			buildPhases = (
+				FB8E5DA923C4205C00FDFEAA /* Sources */,
+				FB8E5DAA23C4205C00FDFEAA /* Frameworks */,
+				FB8E5DAB23C4205C00FDFEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProximityReminderApp;
+			productName = ProximityReminderApp;
+			productReference = FB8E5DAD23C4205C00FDFEAA /* ProximityReminderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8E5DA523C4205B00FDFEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = thechoygroup;
+				TargetAttributes = {
+					FB8E5DAC23C4205C00FDFEAA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FB8E5DA823C4205B00FDFEAA /* Build configuration list for PBXProject "ProximityReminderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8E5DA423C4205B00FDFEAA;
+			productRefGroup = FB8E5DAE23C4205C00FDFEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8E5DAC23C4205C00FDFEAA /* ProximityReminderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8E5DAB23C4205C00FDFEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8E5DEF23C43B3600FDFEAA /* Zilker.gpx in Resources */,
+				FB8E5DBD23C4205D00FDFEAA /* LaunchScreen.storyboard in Resources */,
+				FB8E5DBA23C4205D00FDFEAA /* Assets.xcassets in Resources */,
+				FB8E5DB823C4205C00FDFEAA /* Main.storyboard in Resources */,
+				FB8E5DEE23C43B3600FDFEAA /* Austin.gpx in Resources */,
+				FB8E5DF023C43B3600FDFEAA /* SimulatedLocations.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8E5DA923C4205C00FDFEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8E5DE123C4314700FDFEAA /* ReminderFetchedResultsController.swift in Sources */,
+				FB8E5DDA23C4305500FDFEAA /* SetLocationMapViewDelegate.swift in Sources */,
+				FB8E5DCE23C42F1100FDFEAA /* MasterDataSource.swift in Sources */,
+				FB8E5DC723C42DEA00FDFEAA /* Extensions.swift in Sources */,
+				FB8E5DC523C42DBC00FDFEAA /* LocationManager.swift in Sources */,
+				FB8E5DD023C42F4000FDFEAA /* ReminderCell.swift in Sources */,
+				FB8E5DDE23C430C100FDFEAA /* LocationCell.swift in Sources */,
+				FB8E5DD523C42FAF00FDFEAA /* DetailMapViewDelegate.swift in Sources */,
+				FB8E5DB123C4205C00FDFEAA /* AppDelegate.swift in Sources */,
+				FB8E5DE623C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodeld in Sources */,
+				FB8E5DD323C42F8300FDFEAA /* DetailViewController.swift in Sources */,
+				FB8E5DE323C4317800FDFEAA /* CoreDataStack.swift in Sources */,
+				FB8E5DCC23C42EE700FDFEAA /* MasterViewController.swift in Sources */,
+				FB8E5DD823C4300B00FDFEAA /* SetLocationViewController.swift in Sources */,
+				FB8E5DDC23C4309200FDFEAA /* LocationTableView.swift in Sources */,
+				FB8E5DC923C42E2B00FDFEAA /* Reminder+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB8E5DB623C4205C00FDFEAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8E5DB723C4205C00FDFEAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8E5DBB23C4205D00FDFEAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8E5DBC23C4205D00FDFEAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8E5DBF23C4205D00FDFEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB8E5DC023C4205D00FDFEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8E5DC223C4205D00FDFEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6W28U4TCR;
+				INFOPLIST_FILE = ProximityReminderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thechoygroup.ProximityReminderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8E5DC323C4205D00FDFEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6W28U4TCR;
+				INFOPLIST_FILE = ProximityReminderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thechoygroup.ProximityReminderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8E5DA823C4205B00FDFEAA /* Build configuration list for PBXProject "ProximityReminderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8E5DBF23C4205D00FDFEAA /* Debug */,
+				FB8E5DC023C4205D00FDFEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8E5DC123C4205D00FDFEAA /* Build configuration list for PBXNativeTarget "ProximityReminderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8E5DC223C4205D00FDFEAA /* Debug */,
+				FB8E5DC323C4205D00FDFEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB8E5DE423C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB8E5DE523C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodel */,
+			);
+			currentVersion = FB8E5DE523C431B600FDFEAA /* Proximity_Reminders_App.xcdatamodel */;
+			path = Proximity_Reminders_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB8E5DA523C4205B00FDFEAA /* Project object */;
+}
